@@ -1,28 +1,2 @@
-/* Responsive CSS containing the requireed media queries */
 
-@media screen and (min-width: 350px) {
-    .topBar {
-        margin-right: 2em;
-    }
-}
 
-/*  Using column drop layout - 480 PIXELS */
-@media only screen and (max-width: 600px) {
-	.span_3_of_3 {
-		width: 100%; 
-	}
-	.span_2_of_3 {
-		width: 100%; 
-	}
-	.span_1_of_3 {
-		width: 100%;
-	}
-}
-
-/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
-
-@media only screen and (max-width: 600px) {
-	.col { 
-		margin: 1% 0 1% 0%;
-	}
-}

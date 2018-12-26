@@ -1,0 +1,7 @@
+/* Responsive CSS containing the requireed media queries */
+
+@media screen and (min-width: 350px) {
+    .topBar {
+        margin-right: 2em;
+    }
+}

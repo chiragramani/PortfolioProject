@@ -1,0 +1,37 @@
+/*  Using column drop layout - 600 PIXELS */
+@media only screen and (max-width: 600px) {
+	.span_3_of_3 {
+		width: 100%; 
+	}
+	.span_2_of_3 {
+		width: 100%; 
+	}
+	.span_1_of_3 {
+		width: 100%;
+	}
+	.topBar {
+		flex-direction: column;
+		align-content: center;
+		justify-content: center;
+		text-align: center;
+		width: 100%;
+	}
+	.myInfo {
+		text-align: center;
+		margin-top: 10px;
+	}
+	h1 {
+		font-size: 1.4em;
+	}
+	body {
+		font-size: 16px;
+	}
+}
+
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 680 PIXELS */
+
+@media only screen and (max-width: 600px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
